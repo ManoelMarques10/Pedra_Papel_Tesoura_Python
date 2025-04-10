@@ -7,7 +7,7 @@ vitorias = 0
 
 try:
     while jogarnovamente != 'n':
-        escolha = int(input('\33[34mEscolha entre: [1]Pedra🪨 [2]Papel📜 [3]Tesoura✂️ [4]Sair ❌\n\33[35mEscolha:\33[m '))
+        escolha = int(input('\33[34mEscolha entre: [1]Pedra🗿 [2]Papel📜 [3]Tesoura✂️ [4]Sair ❌\n\33[35mEscolha:\33[m '))
         if escolha == 1:
             decisao = 'Pedra'
         elif escolha == 2:
@@ -19,7 +19,7 @@ try:
         else:
             while escolha != 1 and escolha != 2 and escolha != 3:
                 print('\33[31mEscolha inválida, tente novamente! ')
-                escolha = int(input('\33[34mEscolha entre: [1]Pedra🪨 [2]Papel📜 [3]Tesoura✂️ [4]Sair ❌\n\33[35mEscolha:\33[m '))
+                escolha = int(input('\33[34mEscolha entre: [1]Pedra🗿 [2]Papel📜 [3]Tesoura✂️ [4]Sair ❌\n\33[35mEscolha:\33[m '))
                 if escolha == 1:
                     decisao = 'Pedra'
                 elif escolha == 2:
@@ -28,7 +28,7 @@ try:
                     decisao = 'Tesoura'
 
         if decisao == 'Pedra':
-            print('\33[33mSua escolha foi pedra. 🪨')
+            print('\33[33mSua escolha foi pedra. 🗿')
         elif decisao == 'Papel':
             print('\33[33mSua escolha foi papel. 📜')
         elif decisao == 'Tesoura':
