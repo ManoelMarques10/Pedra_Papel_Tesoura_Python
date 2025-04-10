@@ -102,4 +102,3 @@ try:
 
 except ValueError:
     print('\33[31mOps! algo deu errado... 😣')
-
