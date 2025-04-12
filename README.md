@@ -11,6 +11,7 @@ O jogador escolhe entre **Pedra**, **Papel** ou **Tesoura**, e o computador faz 
 2. O computador escolhe aleatoriamente uma das três opções.
 3. O programa compara as escolhas.
 4. O programa mostra quem venceu ou se deu empate.
+5. Em caso de vitórias consecutivas o jogo conta com sistema de winstreak.
 
 ---
 
